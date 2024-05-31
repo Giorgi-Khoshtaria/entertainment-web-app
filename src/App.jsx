@@ -1,7 +1,13 @@
 import "./App.css";
+import GlobalStyles from "./components/GlobalStyles";
 
 function App() {
-  return <>giorgi</>;
+  return (
+    <div>
+      <GlobalStyles />
+      giorgi
+    </div>
+  );
 }
 
 export default App;
