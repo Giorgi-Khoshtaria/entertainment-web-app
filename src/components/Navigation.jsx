@@ -39,7 +39,6 @@ const Container = styled.div`
   height: 97vh;
   padding: 25px;
   border-radius: 20px;
-  margin: 15px 0;
 
   background-color: ${defaultTheme.colors.blue};
 `;
