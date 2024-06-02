@@ -1,11 +1,12 @@
 import "./App.css";
 import GlobalStyles from "./components/GlobalStyles";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
     <div>
       <GlobalStyles />
-      giorgi
+      <MainPage />
     </div>
   );
 }
