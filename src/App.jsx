@@ -3,6 +3,7 @@ import GlobalStyles from "./components/GlobalStyles";
 import Navigation from "./components/Navigation";
 import Search from "./components/Search";
 import styled from "styled-components";
+import Home from "./pages/Home";
 // import MainPage from "./pages/MainPage";
 
 function App() {
@@ -12,8 +13,10 @@ function App() {
       <Navigation />
       <MainPart>
         <Search />
+        <div>
+          <Home />
+        </div>
       </MainPart>
-      {/* <MainPage /> */}
     </Container>
   );
 }
